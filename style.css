@@ -7,10 +7,6 @@ body{
   background-color: #F7FAFF;
 }
 
-p{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 strong{
   color: red;
   font-weight: 900;
@@ -39,10 +35,6 @@ header, footer{
 }
 
 /*--- Heading ---*/
-nav{
-	padding-bottom: 0.5em;
-}
-
 nav li{
   display: inline-block;
 	list-style-type: none;
@@ -55,32 +47,12 @@ nav a{
 }
 
 /*--- Classes ---*/
-.rechts{
-	float: right;
-}
-
-.links{
-	float: left;
-}
-
 .groter{
   font-size: 20px;
-}
-
-.naImg{
-	clear: both;
 }
 
 /*--- ID's ---*/
 #programmeren {
   color: red;
 	text-align: center;
-}
-
-#groet{
-	font-style: italic;
-}
-
-#helloIT{
-	overflow: none;
 }
