@@ -1,0 +1,86 @@
+/*--- Algemeen ---*/
+*{
+	color: gray;
+}
+
+body{
+  background-color: #F7FAFF;
+}
+
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+strong{
+  color: red;
+  font-weight: 900;
+}
+
+em{
+  color: red;
+}
+
+img{
+	width: 300px;
+	height: auto;
+	padding: 0.5em;
+}
+
+/*--- Combinaties ---*/
+h1, h2, h3, header strong, nav a{
+  color: #128BCC;
+}
+
+header, footer{
+	background-color: #E7F1FF;
+	border-style: solid; 
+	border-color: #BFD9FD;
+	text-align: center;
+}
+
+/*--- Heading ---*/
+nav{
+	padding-bottom: 0.5em;
+}
+
+nav li{
+  display: inline-block;
+	list-style-type: none;
+	border: 5px dotted 	#8ebcfb; 
+	margin: 0.5em;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+/*--- Classes ---*/
+.rechts{
+	float: right;
+}
+
+.links{
+	float: left;
+}
+
+.groter{
+  font-size: 20px;
+}
+
+.naImg{
+	clear: both;
+}
+
+/*--- ID's ---*/
+#programmeren {
+  color: red;
+	text-align: center;
+}
+
+#groet{
+	font-style: italic;
+}
+
+#helloIT{
+	overflow: none;
+}
